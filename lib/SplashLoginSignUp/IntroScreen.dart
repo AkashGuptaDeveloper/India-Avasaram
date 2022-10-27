@@ -1,6 +1,5 @@
 //----------------------------------------------------------------------------//
 import 'package:indiaavasaram/RoutingPackage/Packages.dart';
-
 //----------------------------------------------------------------------------//
 class IntroScreen extends StatefulWidget {
   static String tag = GlobalNavigationRoute.TagIntroScreen.toString();
@@ -204,7 +203,12 @@ class IntroScreenState extends State<IntroScreen>
                                 _showDialog(GlobalFlag
                                     .InternetNotConnected);
                               } else {
-
+                                Navigator.of(context).pushReplacement(
+                                  MaterialPageRoute(
+                                      builder: (context) => LoginScreen(
+                                        SendLoginType:"Speaker Login"
+                                      )),
+                                );
                               }
                             },
                             child: Container(
@@ -236,8 +240,8 @@ class IntroScreenState extends State<IntroScreen>
                                         .WhiteColorCode,
                                     fontWeight:
                                     FontWeight
-                                        .w600,
-                                    fontSize: 17.sp,
+                                        .w500,
+                                    fontSize: 16.sp,
                                     letterSpacing:
                                     0.5,
                                   ),
@@ -261,7 +265,12 @@ class IntroScreenState extends State<IntroScreen>
                                 _showDialog(GlobalFlag
                                     .InternetNotConnected);
                               } else {
-
+                                Navigator.of(context).pushReplacement(
+                                  MaterialPageRoute(
+                                      builder: (context) => LoginScreen(
+                                          SendLoginType:"Subscriber Login"
+                                      )),
+                                );
                               }
                             },
                             child: Container(
@@ -293,8 +302,8 @@ class IntroScreenState extends State<IntroScreen>
                                         .WhiteColorCode,
                                     fontWeight:
                                     FontWeight
-                                        .w600,
-                                    fontSize: 17.sp,
+                                        .w500,
+                                    fontSize: 16.sp,
                                     letterSpacing:
                                     0.5,
                                   ),

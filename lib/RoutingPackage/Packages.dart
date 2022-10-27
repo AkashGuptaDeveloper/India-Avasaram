@@ -35,6 +35,9 @@ export 'package:url_launcher/url_launcher.dart';
 export 'package:uuid/uuid.dart';
 export 'package:indiaavasaram/SplashLoginSignUp/SplashScreen.dart';
 export 'package:simple_animations/simple_animations.dart';
+export 'package:indiaavasaram/SplashLoginSignUp/LoginScreen.dart';
+export 'package:indiaavasaram/GlobalComponent/GlobalServiceURL.dart';
+export 'package:indiaavasaram/SplashLoginSignUp/SignUpScreen.dart';
 //-----------------------------App-Model--------------------------------------//
 
 //-----------------------------Service-Routing--------------------------------//
